@@ -10,5 +10,6 @@ app.use(require('./mail'));
 app.use(require('./actividad'));
 app.use(require('./tarea'));
 app.use(require('./partners'));
+app.use(require('./tramites'));
 
 module.exports = app;

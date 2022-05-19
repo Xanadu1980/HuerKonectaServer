@@ -8,7 +8,7 @@ const app = express();
 var cors = require('cors');
 app.use(cors({
     origin:['http://localhost:4200','http://127.0.0.1:4200','http://127.0.0.1:8080', 
-    'http://localhost:8080', 'https://inversiones-jr.netlify.app'],
+    'http://localhost:8080'],
     credentials:true
 }));
 
